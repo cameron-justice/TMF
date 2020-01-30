@@ -2,34 +2,22 @@
   "name": "the_music_forecast",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": "13.5.x"
-  },
-  "dependencies": {
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-scripts": "3.3.0",
-    "pg": "7.18.1"
-  },
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cameron-justice/TMF.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "author": "Chattlesnake Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cameron-justice/TMF/issues"
+  },
+  "homepage": "https://github.com/cameron-justice/TMF#readme",
+  "description": ""
 }
